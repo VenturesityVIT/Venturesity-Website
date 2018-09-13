@@ -127,6 +127,106 @@ footer a {
   display: none;
 }
 
+/* ========== Event 1 and 3 =============== */
+.events3{
+  padding-top: 20px;
+  border-bottom: 2px solid red;
+}
+
+.events{
+  border-bottom: 2px solid red;
+}
+
+
+h1,
+h2,
+h3{
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.section-title {
+  font-size: 32px;
+  color: red;
+  text-align: left;
+  font-weight: 700;
+}
+
+
+#event1 {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/BHW.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.col-md-push-6{
+  width: 65%;
+  font-size: 150%;
+}
+#event1-img{
+  margin-right: 5%;
+  width:20%;
+  float:right;
+} 
+
+#event1-img2{
+  margin-top:25%;
+  margin-right:9%;
+  position: absolute;
+  right: 0px;
+  width: 20%;
+  padding: 10px;
+}
+
+
+.e3h{
+  font-size: 32px;
+  color: red;
+  text-align: left;
+  margin-left:8mm;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+#event3 {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/BHW2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0;
+}
+
+#event3-img{
+  margin-right: 5%;
+  width:20%;
+  float:right;
+  margin-top: 11%;
+}
+
+
+#event3-img2{
+  margin-top:25%;
+  margin-right:9%;
+  position: absolute;
+  right: 0px;
+  width: 20%;
+  padding: 10px;
+}
+
+.event3-p{
+  color:black;
+}
+
+
+
+
+
+
 /* =========== Contact Us CSS ============ */
 
 
