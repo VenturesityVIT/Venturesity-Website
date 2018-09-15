@@ -1,3 +1,11 @@
+/* JS for Photostack */
+
+ document.documentElement.style.overflowX = 'hidden';  
+
+          $(function(){
+            $(".photostack").Photostack();
+            });
+
 (function() {
 
 	'use strict';
