@@ -183,6 +183,90 @@ h3{
 }
 
 
+/* Event 2*/
+
+.e2h{
+  font-size: 32px;
+  color: red;
+  text-align: right;
+  margin-right:8mm;
+  margin-left: 500px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+
+#event2 {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/BHW2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0  0 0;
+}
+
+#event2 {
+  color:black;
+  font-size:20px;
+}
+#event2-img{
+  margin-left: 5%;
+  width:70%;
+  float:left;
+  margin-top: 11%;
+  
+}
+
+
+#event2-img2{
+  margin-top:25%;
+  
+  margin-left:9%;
+  position: absolute;
+  left: 0px;
+  width: 20%;
+  padding: 10px;
+}
+
+.event2-p{
+  color:black;
+  font-size:20px;
+  margin-right:2%;
+}
+
+.event2 event2-info{
+  margin-right:2%;
+  
+}
+  
+ /*margin-left: 500px;*/
+
+
+#event2 .left{
+  float:left;
+  /*width:auto;*/
+  margin-right:2%;
+  text-align:center;
+}
+
+#event2 .right{
+  float:right;
+/*  width:auto;
+*/  text-align:right;
+
+
+}
+
+/* Event 2 ending */
+
+
+
+
+
+
+
+
+
 .e3h{
   font-size: 32px;
   color: red;
@@ -191,6 +275,7 @@ h3{
   font-weight: 700;
   padding-bottom: 10px;
 }
+
 
 #event3 {
   width: 100%;
@@ -221,6 +306,79 @@ h3{
 .event3-p{
   color:black;
 }
+
+
+
+/*ABOUT CSS*/
+.ab{
+  font-size: 32px;
+  color: red;
+  text-align: right;
+  margin-right:8mm;
+  margin-left: 500px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+
+#about {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/BHW2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0  0 0;
+}
+
+#about{
+  color:black;
+  font-size:20px;
+}
+#about-img{
+  margin-left: 5%;
+  width:70%;
+  float:left;
+  margin-top: 11%;
+  
+}
+
+
+#about-img2{
+  margin-top:25%;
+  
+  margin-left:9%;
+  position: absolute;
+  left: 0px;
+  width: 20%;
+  padding: 10px;
+}
+
+.about-p{
+  color:black;
+  font-size:20px;
+  margin-right:2%;
+}
+
+.about about-info{
+  margin-right:2%;
+  
+}
+  
+ /*margin-left: 500px;*/
+
+
+#about .left{
+  float:left;
+  /*width:auto;*/
+  margin-right:2%;
+  text-align:center;
+}
+
+#about .right{
+  float:right;
+/*  width:auto;
+*/  text-align:right;
+
 
 
 
