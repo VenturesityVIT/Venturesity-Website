@@ -184,7 +184,7 @@ padding-top: 100px;
   padding-bottom: 10px;
 
 }
-
+     
 
 #event2 {
   width: 100%;
@@ -248,12 +248,22 @@ padding-top: 100px;
 
 
 #event3 {
-  width: 100%;
-  height: 100vh;
+    
+    width: 100%;
   background: url(../images/BHW2.png);
-  background-repeat: no-repeat;
+    height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  padding: 0px 0;
+ background-size: cover;
+padding-top: 100px;
+ padding-bottom: 100px;
+  color:black;
+  font-size:20px;
+    
+    
+    
 }
 
 #event3-img{
@@ -295,12 +305,19 @@ hr{
 
 
 #about {
-  width: 100%;
-  height: 100vh;
-  background: url(../images/BHW2.png);
-  background-repeat: no-repeat;
+    
+    width: 100%;
+  background: url(../images/BHW.png);
+    height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  padding: 0px 0  0 0;
+ background-size: cover;
+padding-top: 100px;
+ padding-bottom: 100px;
+  color:black;
+  font-size:20px;
 }
 
 #about{
