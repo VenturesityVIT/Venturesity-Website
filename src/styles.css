@@ -127,168 +127,6 @@ footer a {
   display: none;
 }
 
-/* ========== Event 1 and 3 =============== */
-.events3{
-  padding-top: 20px;
-  border-bottom: 2px solid red;
-}
-
-.events{
-  border-bottom: 2px solid red;
-}
-
-
-h1,
-h2,
-h3{
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-}
-
-.section-title {
-  font-size: 32px;
-  color: red;
-  font-weight: 700;
-}
-
-
-#event1 {
-  width: 100%;
-  background: url(../images/BHW.png);
-  height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- background-size: cover;
-padding-top: 100px;
- padding-bottom: 100px;
-
-
-}
-
-.event1-p{
-    
-    width: 65%;
-  font-size: 150%; 
-    
-}
-
-/* Event 2*/
-
-.e2h{
-  font-size: 32px;
-  color: red;
-  font-weight: 700;
-    text-align: right;
-  padding-bottom: 10px;
-
-}
-     
-
-#event2 {
-  width: 100%;
-  background: url(../images/BHW2.png);
-    height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- background-size: cover;
-padding-top: 100px;
- padding-bottom: 100px;
-  color:black;
-  font-size:20px;
-    
-   
-}
-
-
-
-.event2-p{
-  color:black;
-  font-size:20px;
-  margin-right:2%;
-}
-
-.event2 event2-info{
-  margin-right:2%;
-  
-}
-  
-
-
-/* Event 2 ending */
-
-
-.e3h{
-  font-size: 32px;
-  color: red;
-  text-align: left;
-  margin-left:8mm;
-  font-weight: 700;
-  padding-bottom: 10px;
-}
-
-
-#event3 {
-    
-    width: 100%;
-  background: url(../images/BHW2.png);
-    height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- background-size: cover;
-padding-top: 100px;
- padding-bottom: 100px;
-  color:black;
-  font-size:20px;
-    
-    
-    
-}
-
-
-
-.event3-p{
-  color:black;
-}
-
-hr{
-    border-top-color: red;
-}
-
-
-/*ABOUT CSS*/
-
-#about {
-    
-    width: 100%;
-  background: url(../images/BHW.png);
-    height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- background-size: cover;
-padding-top: 100px;
- padding-bottom: 100px;
-  color:black;
-  font-size:20px;
-}
-
-
-.about-p{
-  color:black;
-  font-size:20px;
-  margin-right:2%;
-}
-
-  
-
-
 /* =========== Gallery ============= */
 
     
@@ -406,3 +244,138 @@ padding-top: 100px;
     padding-top: 100px;
 }
 
+
+
+/* no edits below this line please */
+html {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+*, *:after, *:before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+}
+
+.event-section {
+	height: 100%;
+	width: 100%;
+	/* background: linear-gradient(
+		rgba(255, 255, 255, 0.1),
+		rgba(0, 0, 0, 0.9)
+	), url('./vit2.jpg') no-repeat center center fixed; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* this is to position child using absolute
+	** relative is same as static unless you
+	** play with top, bottom, left or right
+	*/
+	/* position: relative; */
+
+	display: flex;
+	flex-direction: column;
+}
+
+.event-head {
+	flex: 0 0 auto;
+	padding: 20px;
+	color: red;
+}
+
+.event-head > p {
+	font-size: 2em;
+}
+
+.event-container {
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: center;
+	width: 100%;
+}
+
+.event-content {
+	flex: 2 0 0;
+	padding: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.content-text {
+	margin: 15px;
+	text-align: justify;
+	font-size: 1.4em;
+}
+
+.event-images {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 0;
+	justify-content: space-around;
+}
+
+.images-image {
+	flex: 0 1 auto;
+	padding: 20%;
+}
+
+#event1, #event3 {
+	background: url('../images/BHW.png') no-repeat center center fixed;
+}
+
+.event-rev {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.5),
+		rgba(128, 0, 255, 0.6)
+	), url('../images/BHW2.png') no-repeat center center fixed;
+}
+
+.event-rev > .event-head > p {
+	text-align: right;
+	color: white;
+}
+
+.event-rev .event-container {
+	flex-direction: row-reverse;
+}
+
+.event-rev .content-text {
+	color: white;
+}
+
+
+
+
+
+
+
+
+@media all and (orientation: portrait) {
+	.event-container {
+		flex-direction: column;
+	}
+
+	.event-images {
+		flex-direction: row;
+	}
+
+	.content-text {
+		font-size: 0.8em;
+	}
+
+	.event-rev > .event-container {
+		flex-direction: column;
+	}
+}
