@@ -155,33 +155,25 @@ h3{
 
 #event1 {
   width: 100%;
-  height: 100vh;
   background: url(../images/BHW.png);
-  background-repeat: no-repeat;
+  height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+ background-size: cover;
+padding-top: 100px;
+ padding-bottom: 100px;
+
 
 }
 
-
-.col-md-push-6{
-  width: 65%;
-  font-size: 150%;
+.event1-p{
+    
+    width: 65%;
+  font-size: 150%; 
+    
 }
-#event1-img{
-  margin-right: 5%;
-  width:20%;
-  float:right;
-} 
-
-#event1-img2{
-  margin-top:25%;
-  margin-right:9%;
-  position: absolute;
-  right: 0px;
-  width: 20%;
-  padding: 10px;
-}
-
 
 /* Event 2*/
 
@@ -258,13 +250,6 @@ h3{
 }
 
 /* Event 2 ending */
-
-
-
-
-
-
-
 
 
 .e3h{
@@ -379,6 +364,7 @@ h3{
 /*  width:auto;
 */  text-align:right;
 
+}
 
 
 
@@ -403,7 +389,6 @@ h3{
   background-size: cover;
  background-size: cover;
  padding-bottom: 60px;
- height: 100%;
 
 }
 
