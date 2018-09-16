@@ -163,6 +163,16 @@ hr{
 
                     }
 
+                     @media only screen and (max-width: 550px) {
+
+                        .gallery-img
+                            {
+                                width: 350px;
+                                height: auto;
+                            }
+
+                    }
+
 
 
             .gallery{
