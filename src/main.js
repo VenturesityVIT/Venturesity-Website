@@ -331,13 +331,25 @@ $(function () {
 	// }
 // })();
 
-($ => {
+const calcEventHeight = $ => {
 	'use strict';
 	const navHeight = $("#nvbar").outerHeight();
 	const viewportHeight = window.innerHeight;
 	const newEventHeight = viewportHeight - navHeight;
 	$(".event-section").height(newEventHeight);
+}
+
+(function ($) {
+	"use strict";
+	const navHeight = $("#nvbar").outerHeight();
+	const viewportHeight = window.innerHeight;
+	$("#carouselExampleIndicators")[0].css({
+		'position': 'relative',
+		'top': navHeight 
+	});
 })(jQuery);
+
+(calcEventHeight)(jQuery);
 
 (function ($) {
 	"use strict";
