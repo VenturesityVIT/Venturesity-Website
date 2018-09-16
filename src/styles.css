@@ -166,10 +166,17 @@ hr {
 }
 
 /* =========== Gallery ============= */
+
+@media all and (max-width: 1690px) {
+    
 .gallery-img {
   width: 900px;
   height: 600px;
 }
+    
+    
+}
+
 
 
 @media only screen and (max-width: 1056px) {
@@ -200,7 +207,7 @@ hr {
 }
 
 
-                     @media only screen and (max-width: 550px) {
+                 @media only screen and (max-width: 480px) {
 
                         .gallery-img
                             {
