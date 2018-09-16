@@ -4,15 +4,11 @@
   height: 100%;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
-
-
-
-
-/* =========== Gallery ============= */
 
 
 .carousel-item {
@@ -27,352 +23,402 @@ html, body {
 
 
 
-.py-5{
-  background: #654ea3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.py-5 {
+  background: #654ea3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
 /* Dropdown Button */
 
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background: #7F00FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: none;
+  position: absolute;
+  background: #7F00FF;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E100FF, #7F00FF);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: white;
-    padding: 12px 12px;
-    text-decoration: none;
-    display: block;
+  color: white;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #32223f;}
+.dropdown-content a:hover {
+  background-color: #32223f;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
 
 .vl {
-    border-left: 6px solid red;
-    height: 50px;
-    padding: 10px;
+  border-left: 6px solid red;
+  height: 50px;
+  padding: 10px;
 
 }
 
-hr{
+hr {
   color: 4px solid red;
 }
+
 /*  SECTIONS  */
 .section {
   clear: both;
   padding: 10px;
-  margin-left: : 10px;
+  margin-left: 10px;
 }
 
 /*  COLUMN SETUP  */
 .col {
   display: block;
-  float:left;
+  float: left;
   margin: 1% 0 1% 7%;
 }
-.col:first-child { margin-left: 0; }
+
+.col:first-child {
+  margin-left: 0;
+}
 
 /*  GROUPING  */
 .group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 */
+}
+
 /*  GRID OF THREE  */
-.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 64.33%; }
-.span_1_of_3 { width: 28.66%; }
+.span_3_of_3 {
+  width: 100%;
+}
+
+.span_2_of_3 {
+  width: 64.33%;
+}
+
+.span_1_of_3 {
+  width: 28.66%;
+}
 
 /*  GO FULL WIDTH BELOW 480 PIXELS */
 @media only screen and (max-width: 480px) {
-  .col {  margin: 1% 0 1% 0%; }
-  .span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+
+  .span_3_of_3,
+  .span_2_of_3,
+  .span_1_of_3 {
+    width: 100%;
+  }
 }
+
 .navbar .navbar-header,
 .navbar-collapse {
-    float:none;
-    display:inline-block;
-    vertical-align: top;
+  float: none;
+  display: inline-block;
+  vertical-align: top;
 }
 
 @media (max-width: 768px) {
-    .navbar-collapse  {
-        display: block;
-    }
+  .navbar-collapse {
+    display: block;
+  }
 }
 
-    
-        .gallery-img
-        {
-            width: 900px;
-            height: 600px;
-        }
-      
+/* =========== Gallery ============= */
+.gallery-img {
+  width: 900px;
+  height: 600px;
+}
 
-             @media only screen and (max-width: 1056px) {
 
-                    .gallery-img
-                        {
-                            width: 700px;
-                            height: auto;
-                        }
+@media only screen and (max-width: 1056px) {
 
-                }
+  .gallery-img {
+    width: 700px;
+    height: auto;
+  }
 
-                    @media only screen and (max-width: 767px) {
+}
 
-                        .gallery-img
-                            {
-                                width: 600px;
-                                height: auto;
-                            }
+@media only screen and (max-width: 767px) {
 
-                    }
+  .gallery-img {
+    width: 600px;
+    height: auto;
+  }
 
-                    @media only screen and (max-width: 650px) {
+}
 
-                        .gallery-img
-                            {
-                                width: 450px;
-                                height: auto;
-                            }
+@media only screen and (max-width: 650px) {
 
-                    }
+  .gallery-img {
+    width: 450px;
+    height: auto;
+  }
+
+}
 
 
 
-            .gallery{
-                
-                     width: 100%;
-          background: url(../images/BHW.png);
-            height: auto;
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-        padding-top: 100px;
-         padding-bottom: 100px;
-          color:black;
-          font-size:20px;
-    
+.gallery {
 
-        }
+  width: 100%;
+  background: url(../images/BHW.png);
+  height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: black;
+  font-size: 20px;
 
-.gallery-title{
-    
-    padding-bottom: 50px;
+
+}
+
+.gallery-title {
+
+  padding-bottom: 50px;
 }
 
 
 /* =========== Contact Us CSS ============ */
 
 
-#contact{
-    
- 
+#contact {
+
+
   padding-top: 60px;
   height: auto;
-  background: #3a6186; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color : #fff;    
+  background: #3a6186;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a6186, #89253e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a6186, #89253e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- background-size: cover;
- padding-bottom: 60px;
+  background-size: cover;
+  padding-bottom: 60px;
 
 }
 
-.contact-title
-{
-    padding-top: 100px; 
-    
+.contact-title {
+  padding-top: 100px;
+
 }
 
-.form-group
-{
-    opacity: 0.7;
+.form-group {
+  opacity: 0.7;
 }
 
-.lead
-{
-    opacity: 0.5;
+.lead {
+  opacity: 0.5;
 }
 
-#description
-{
-    height: 185px;
+#description {
+  height: 185px;
 }
 
-.contact-section
-{
-    padding-top: 20px;
+.contact-section {
+  padding-top: 20px;
 }
 
-#social-item
-{
-    padding-top: 100px;
+#social-item {
+  padding-top: 100px;
 }
 
 
 
 /* no edits below this line please */
 html {
-	box-sizing: border-box;
-	font-family: sans-serif;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-*, *:after, *:before {
-	box-sizing: inherit;
-	margin: 0;
-	padding: 0;
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
-html, body {
-	height: 100%;
-	width: 100%;
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
 img {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .event-section {
-	height: 100%;
-	width: 100%;
-	/* background: linear-gradient(
+  height: 100%;
+  width: 100%;
+  /* background: linear-gradient(
 		rgba(255, 255, 255, 0.1),
 		rgba(0, 0, 0, 0.9)
 	), url('./vit2.jpg') no-repeat center center fixed; */
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	/* this is to position child using absolute
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* this is to position child using absolute
 	** relative is same as static unless you
 	** play with top, bottom, left or right
 	*/
-	/* position: relative; */
+  /* position: relative; */
 
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .event-head {
-	flex: 0 0 auto;
-	padding: 20px;
-	color: red;
+  flex: 0 0 auto;
+  padding: 20px;
+  color: red;
 }
 
-.event-head > p {
-	font-size: 2em;
+.event-head>p {
+  font-size: 2em;
 }
 
 .event-container {
-	display: flex;
-	flex: 1 1 auto;
-	justify-content: center;
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
   width: 100%;
   overflow-y: auto;
 }
 
 .event-content {
-	flex: 2 0 0;
-	padding: 5%;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
+  flex: 2 0 0;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .content-text {
-	margin: 15px;
-	text-align: justify;
-	font-size: 1.4em;
+  margin: 15px;
+  text-align: justify;
+  font-size: 1.4em;
 }
 
 .event-images {
-	display: flex;
-	flex-direction: column;
-	flex: 1 0 0;
-	justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: space-around;
 }
 
 .images-image {
-	flex: 0 1 auto;
-	padding: 20%;
+  flex: 0 1 auto;
+  padding: 20%;
 }
 
-#event1, #event3 {
-	background: url('../images/BHW.png') no-repeat center center fixed;
+#event1,
+#event3 {
+  background: url('../images/BHW.png') no-repeat center center fixed;
 }
 
 .event-rev {
-	background: linear-gradient(
-		rgba(0, 0, 0, 0.5),
-		rgba(128, 0, 255, 0.6)
-	), url('../images/BHW2.png') no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(128, 0, 255, 0.6)), url('../images/BHW2.png') no-repeat center center fixed;
 }
 
-.event-rev > .event-head > p {
-	text-align: right;
-	color: white;
+.event-rev>.event-head>p {
+  text-align: right;
+  color: white;
 }
 
 .event-rev .event-container {
-	flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .event-rev .content-text {
-	color: white;
+  color: white;
 }
 
 
+/* modifying the behaviour of a bootstrap class here
+ * this is temporary
+ * gotta fix this properly later
+ * don't ever do this xD
+ */
 
+#contact .row {
+  margin-left: none;
+  margin-right: none;
+  display: initial;
+  flex-wrap: initial;
+}
 
 
 
 
 
 @media all and (orientation: portrait) {
-	.event-container {
-		flex-direction: column;
-	}
+  .event-container {
+    flex-direction: column;
+  }
 
-	.event-images {
-		flex-direction: row;
-	}
+  .event-images {
+    flex-direction: row;
+  }
 
-	.content-text {
-		font-size: 0.8em;
-	}
+  .content-text {
+    font-size: 0.8em;
+  }
 
-	.event-rev > .event-container {
-		flex-direction: column;
-	}
+  .event-rev>.event-container {
+    flex-direction: column;
+  }
 }
