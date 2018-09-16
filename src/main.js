@@ -14,6 +14,28 @@ const calcEventHeight = $ => {
 	$(".event-section").height(newEventHeight);
 }
 
+// function to handle our team animations
+($ => {
+	if(!window.matchMedia('(orientation: portrait)').matches) {
+		$('.member').hover(function() {
+			console.log(this.id);
+			$(this).find('.desc').css({
+				'display': 'initial'
+			});
+			$(this).css ({
+				'background-color': 'rgba(255, 255, 255, 0.7)'
+			});
+		}, function() {
+			$(this).find('.desc').css({
+				'display': 'none'
+			});
+			$(this).css ({
+				'background-color': 'transparent'
+			});
+		});
+	}
+})(jQuery);
+
 (function ($) {
 	"use strict";
 	const navHeight = $("#nvbar").outerHeight();
@@ -25,6 +47,7 @@ const calcEventHeight = $ => {
 })(jQuery);
 
 (calcEventHeight)(jQuery);
+
 
 (function ($) {
 	"use strict";

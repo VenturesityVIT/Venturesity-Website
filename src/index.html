@@ -1,333 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Venturesity VIT</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" href="../lib/bootstrap.min.css" />
-    <link rel="stylesheet" href="../lib/animate.min.css" />
-    <link rel="stylesheet" href="../lib/ionicons.min.css" />
-    
-     <link rel="stylesheet" href="../lib/jquery.Photostack.css">
-     <link rel="stylesheet" type="text/css" href="styles.css">
-     
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Venturesity VIT</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="../lib/bootstrap.min.css" />
+  <link rel="stylesheet" href="../lib/animate.min.css" />
+  <link rel="stylesheet" href="../lib/ionicons.min.css" />
+
+  <link rel="stylesheet" href="../lib/jquery.Photostack.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
+
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " id="nvbar">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="../images/Logo143.png" style="height: 50px;width: 50px;"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="nav navbar-nav navbar-center">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <div class="dropdown">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " id="nvbar">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="../images/Logo143.png" style="height: 50px;width: 50px;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="nav navbar-nav navbar-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
               <a class="nav-link">Events</a>
               <div class="dropdown-content">
-              <a href="#event1">Hello World</a>
-              <hr>
-              <a href="#event2">HackOverflow</a>
-              <hr>
-              <a href="#event3">Hello World 2.0</a>
-  </div>
-</div>
-            </li>   
-            <li class="nav-item">
-              <a class="nav-link" href="#gallery">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Our team</a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+                <a href="#event1">Hello World</a>
+                <hr>
+                <a href="#event2">HackOverflow</a>
+                <hr>
+                <a href="#event3">Hello World 2.0</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Our team</a>
+          </li>
 
-    <header>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('../images/prod/landing_1.png')">
-            <div class="carousel-caption d-none d-md-block">
-              <p></p>
-            </div>
-          </div>
-          <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('../images/prod/landing_2.png')">
-            <div class="carousel-caption d-none d-md-block">
-              <p></p>
-            </div>
-          </div>
-          <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('../images/prod/landing_3.png')">
-            <div class="carousel-caption d-none d-md-block">
-              <p></p>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('../images/prod/landing_1.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <p></p>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('../images/prod/landing_2.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <p></p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('../images/prod/landing_3.png')">
+          <div class="carousel-caption d-none d-md-block">
+            <p></p>
+          </div>
+        </div>
       </div>
-    </header>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
 
-    <!-- Page Content -->
-    <section class="py-5">
-      <div class="section group">
-  <div class="img-cont">
-  <img src="../images/Hello world 1.png" style="width: 288px;height: 125px;">
+  <!-- Page Content -->
+  <section class="py-5">
+    <div class="section group">
+      <div class="img-cont">
+        <img src="../images/Hello world 1.png" style="width: 288px;height: 125px;">
+      </div>
+
+      <div class="img-cont">
+        <img src="../images/hackoverflow logo_white.png" style="width: 288px;height: 125px;">
+
+      </div>
+      <div class="img-cont">
+        <img src="../images/hw2.png" style="width: 288px;height: 125px;">
+
+      </div>
+    </div>
+  </section>
+
+  <!-- events and about us -->
+  <section id="event1" class="event-section">
+    <div class="event-head">
+      <p class="head-text">Hello World</p>
+    </div>
+    <hr>
+    <div class="event-container">
+      <div class="event-content">
+        <p class="content-text">
+          We conducted our flagship hackathon Hello World during Gravitas'17, VIT's annual technical fest. The main
+          purpose
+          of Hello World was to introduce the freshers to the world of hacks and making them realise the true potential
+          of
+          themselves as well as their competent. Problem statements involved Heathcare, Security, Digital India,
+          Education
+          and Connecting India.
+        </p>
+        <p class="content-text">
+          It was a 24-hour hackathon including separate sessions for team formation, idea presentation,
+          product/prototype
+          development and final pitch. Participants were judged on the basis of the follo wing criterion. Originality,
+          Presentation, Product quality, Code quality and Final presentation. Just like a newbie's first program is a
+          Hello
+          World code, we encouraged freshers to a Hello World code, we
+        </p>
+      </div>
+      <div class="event-images">
+        <div class="event-image">
+          <img src="../images/hello1.png" alt="Hello World" class="images-image">
+        </div>
+        <div class="event-image">
+          <img src="../images/prod/ho2.png" alt="Hello World" class="images-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="event2" class="event-section event-rev">
+    <div class="event-head">
+      <p class="head-text">HackOverflow</p>
+    </div>
+    <hr>
+    <div class="event-container">
+      <div class="event-content">
+        <p class="content-text">
+          We conducted our flagship hackathon Hello World during Gravitas'17, VIT's annual technical fest. The main
+          purpose
+          of Hello World was to introduce the freshers to the world of hacks and making them realise the true potential
+          of
+          themselves as well as their competent. Problem statements involved Heathcare, Security, Digital India,
+          Education
+          and Connecting India.
+        </p>
+        <p class="content-text">
+          It was a 24-hour hackathon including separate sessions for team formation, idea presentation,
+          product/prototype
+          development and final pitch. Participants were judged on the basis of the follo wing criterion. Originality,
+          Presentation, Product quality, Code quality and Final presentation. Just like a newbie's first program is a
+          Hello
+          World code, we encouraged freshers to a Hello World code, we
+        </p>
+      </div>
+      <div class="event-images">
+        <div class="event-image">
+          <img src="../images/hackoverflow.png" alt="Hello World" class="images-image">
+        </div>
+        <div class="event-image">
+          <img src="../images/prod/ho1.png" alt="Hello World" class="images-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="event3" class="event-section">
+    <div class="event-head">
+      <p class="head-text">Hello World 2.0</p>
+    </div>
+    <hr>
+    <div class="event-container">
+      <div class="event-content">
+        <p class="content-text">
+          Hello World 2.0 is a pre-gravitas technical event organized for the freshers to introduce them to the world
+          of
+          hacks and technical answers to real world problems.
+        </p>
+        <p class="content-text">
+          In this hackathon participants are given the task to create products that would solve problems in chosen few
+          fields like - Healthcare, Security, Digital India, Education, and Connecting India with respect to the
+          Gravitas
+          theme "Technology for Non-technologists."
+        </p>
+        <p class="content-text">
+          The duration of the hackathon is 36 hours, which includes team formation, ideation, product/prototype
+          development,
+          and final pitch. The participants would be judged on the basis of the following criterion - Originality,
+          Presentation, Product Quality, Code Quality and Final Pitch.
+        </p>
+      </div>
+      <div class="event-images">
+        <div class="event-image">
+          <img src="../images/hw2.png" alt="Hello World" class="images-image">
+        </div>
+        <div class="event-image">
+          <img src="../images/hw2.png" alt="Hello World" class="images-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="event-section event-rev">
+    <div class="event-head">
+      <p class="head-text">About Us</p>
+    </div>
+    <hr>
+    <div class="event-container">
+      <div class="event-content">
+        <p class="content-text">
+          Getting to know people is hard, because humans aren’t one-dimensional.
+          We are a technological innovation chapter with a little bit of goofiness, all
+          amalgamated into a bunch of crazy workaholics, who also work for the benefit of individuals looking for
+          meaningful experiences, as well as the enhancement of technical literacy.
+          We predominantly operate on coffee and code. If you aren’t impressed yet, we would expect you to leave this
+          page without reading our awesome content.
+        </p>
+        <p class="content-text">
+          In the course of a year, we organize various events, including hackathons, like Hello World, and
+          HackOverflow. The workshops conducted by the chapter have had
+          positive outcomes till date, and we strive to use our experience to create results that everyone is insanely
+          proud of. Passion is contagious and many of us naturally prefer to work with people who love what they do.
+        </p>
+      </div>
+      <div class="event-images">
+        <div class="event-image">
+          <img src="../images/Logo143.png" alt="Hello World" class="images-image">
+        </div>
+        <div class="event-image">
+          <img src="../images/prod/gf.png" alt="Hello World" class="images-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="team">
+    <div class="team-head">
+      <p>Our Team</p>
+    </div>
+    <div class="members">
+      <div class="member" id="chair">
+        <div class="pic-container">
+          <img src="../images/daksh.jpg" alt="Daksh Mehta" class="pic">
+        </div>
+        <div class="desc">
+          <div class="name"><p>Daksh Mehta</p></div>
+          <div class="position"><p>Chairperson</p></div>
+        </div>
+      </div>
+      <div class="member" id="tech-lead">
+        <div class="pic-container">
+          <img src="../images/daksh.jpg" alt="Nakul Sakhuja" class="pic">
+        </div>
+        <div class="desc">
+          <div class="name"><p>Nakula Sakhuja</p></div>
+          <div class="position"><p>Technical Lead</p></div>
+        </div>
+      </div>
+      <div class="member" id="hr">
+        <div class="pic-container">
+          <img src="../images/daksh.jpg" alt="Sanyam Jain" class="pic">
+        </div>
+        <div class="desc">
+          <div class="name"><p>Sanyam Jain</p></div>
+          <div class="position"><p>Head of Human Resources</p></div>
+        </div>
+      </div>
+      <div class="member" id="design">
+        <div class="pic-container">
+          <img src="../images/daksh.jpg" alt="Aakash Verma" class="pic">
+        </div>
+        <div class="desc">
+          <div class="name">Aakash Verma</div>
+          <div class="position"><p>Head of Design</p></div>
+        </div>
+      </div>
+      <div class="member" id="finance">
+        <div class="pic-container">
+          <img src="../images/daksh.jpg" alt="Arushit Mudgal" class="pic">
+        </div>
+        <div class="desc">
+          <div class="name"><p>Arushit Mudgal</p></div>
+          <div class="position"><p>Head of Finance</p></div>
+        </div>
+      </div>
+      <div class="member" id="ops">
+        <div class="pic-container">
+          <img src="../images/daksh.jpg" alt="Eshaan Mehrotra" class="pic">
+        </div>
+        <div class="desc">
+          <div class="name"><p>Eshaan Mehrotra</p></div>
+          <div class="position"><p>Head of Operations</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div class="gallery" id="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <hr>
+          <h2 class="gallery-title text-center"><strong>Gallery</strong></h2>
+        </div>
+      </div>
+
+      <ul class="photostack">
+        <li><img src="../images/Gallery/1.jpg" class="gallery-img"></li>
+        <li><img src="../images/Gallery/2.jpg" class="gallery-img"></li>
+        <li><img src="../images/Gallery/3.jpg" class="gallery-img"></li>
+        <li><img src="../images/Gallery/4.jpg" class="gallery-img"></li>
+        <li><img src="../images/Gallery/5.jpg" class="gallery-img"></li>
+        <li><img src="../images/Gallery/6.jpg" class="gallery-img"></li>
+        <li><img src="../images/Gallery/7.jpg" class="gallery-img"></li>
+        <li><img src="../images/Gallery/8.jpg" class="gallery-img"></li>
+      </ul>
+
+    </div>
   </div>
 
-  <div class="img-cont">
-  <img src="../images/hackoverflow logo_white.png" style="width: 288px;height: 125px;">
-  
-  </div>
-  <div class="img-cont">
-  <img src="../images/hw2.png" style="width: 288px;height: 125px;">
-  
-  </div>
-</div>
-    </section>
 
- <!-- events and about us -->
- <section id="event1" class="event-section">
-  <div class="event-head">
-    <p class="head-text">Hello World</p>
-  </div>
-  <hr>
-  <div class="event-container">
-    <div class="event-content">
-      <p class="content-text">
-        We conducted our flagship hackathon Hello World during Gravitas'17, VIT's annual technical fest. The main purpose
-        of Hello World was to introduce the freshers to the world of hacks and making them realise the true potential of
-        themselves as well as their competent. Problem statements involved Heathcare, Security, Digital India, Education
-        and Connecting India.
-      </p>
-      <p class="content-text">
-        It was a 24-hour hackathon including separate sessions for team formation, idea presentation, product/prototype
-        development and final pitch. Participants were judged on the basis of the follo wing criterion. Originality,
-        Presentation, Product quality, Code quality and Final presentation. Just like a newbie's first program is a Hello
-        World code, we encouraged freshers to a Hello World code, we
-      </p>
-    </div>
-    <div class="event-images">
-      <div class="event-image">
-        <img src="../images/hello1.png" alt="Hello World" class="images-image">
-      </div>
-      <div class="event-image">
-        <img src="../images/prod/ho2.png" alt="Hello World" class="images-image">
-      </div>
-    </div>
-  </div>
-</section>
 
-<section id="event2" class="event-section event-rev">
-  <div class="event-head">
-    <p class="head-text">HackOverflow</p>
-  </div>
-  <hr>
-  <div class="event-container">
-    <div class="event-content">
-      <p class="content-text">
-        We conducted our flagship hackathon Hello World during Gravitas'17, VIT's annual technical fest. The main purpose
-        of Hello World was to introduce the freshers to the world of hacks and making them realise the true potential of
-        themselves as well as their competent. Problem statements involved Heathcare, Security, Digital India, Education
-        and Connecting India.
-      </p>
-      <p class="content-text">
-        It was a 24-hour hackathon including separate sessions for team formation, idea presentation, product/prototype
-        development and final pitch. Participants were judged on the basis of the follo wing criterion. Originality,
-        Presentation, Product quality, Code quality and Final presentation. Just like a newbie's first program is a Hello
-        World code, we encouraged freshers to a Hello World code, we
-      </p>
-    </div>
-    <div class="event-images">
-      <div class="event-image">
-        <img src="../images/hackoverflow.png" alt="Hello World" class="images-image">
-      </div>
-      <div class="event-image">
-        <img src="../images/prod/ho1.png" alt="Hello World" class="images-image">
-      </div>
-    </div>
-  </div>
-</section>
 
-<section id="event3" class="event-section">
-  <div class="event-head">
-    <p class="head-text">Hello World 2.0</p>
-  </div>
-  <hr>
-  <div class="event-container">
-    <div class="event-content">
-      <p class="content-text">
-        Hello World 2.0 is a pre-gravitas technical event organized for the freshers to introduce them to the world of
-        hacks and technical answers to real world problems.
-      </p>
-      <p class="content-text">
-        In this hackathon participants are given the task to create products that would solve problems in chosen few
-        fields like - Healthcare, Security, Digital India, Education, and Connecting India with respect to the Gravitas
-        theme "Technology for Non-technologists."
-      </p>
-      <p class="content-text">
-        The duration of the hackathon is 36 hours, which includes team formation, ideation, product/prototype development,
-        and final pitch. The participants would be judged on the basis of the following criterion - Originality,
-        Presentation, Product Quality, Code Quality and Final Pitch.
-      </p>
-    </div>
-    <div class="event-images">
-      <div class="event-image">
-        <img src="../images/hw2.png" alt="Hello World" class="images-image">
-      </div>
-      <div class="event-image">
-        <img src="../images/hw2.png" alt="Hello World" class="images-image">
-      </div>
-    </div>
-  </div>
-</section>
+  <div id="contact">
 
-<section id="about" class="event-section event-rev">
-  <div class="event-head">
-    <p class="head-text">About Us</p>
-  </div>
-  <hr>
-  <div class="event-container">
-    <div class="event-content">
-      <p class="content-text">
-        Getting to know people is hard, because humans aren’t one-dimensional. 
-        We are a technological innovation chapter with a little bit of goofiness, all 
-        amalgamated into a bunch of crazy workaholics, who also work for the benefit of individuals looking for meaningful experiences, as well as the enhancement of technical literacy.
-        We predominantly operate on coffee and code. If you aren’t impressed yet, we would expect you to leave this page without reading our awesome content.
-      </p>
-      <p class="content-text">
-        In the course of a year, we organize various events, including hackathons, like Hello World, and HackOverflow. The workshops conducted by the chapter have had 
-        positive outcomes till date, and we strive to use our experience to create results that everyone is insanely proud of. Passion is contagious and many of us naturally prefer to work with people who love what they do.
-      </p>
-    </div>
-    <div class="event-images">
-      <div class="event-image">
-        <img src="../images/Logo143.png" alt="Hello World" class="images-image">
-      </div>
-      <div class="event-image">
-        <img src="../images/prod/gf.png" alt="Hello World" class="images-image">
+    <div class="container wow fadeInUp">
+      <div id="contact-title" class="row">
+        <h1>Contact us</h1>
+        <h3 class="lead">Just Ask. Get Answers.</h3>
       </div>
     </div>
-  </div>
-</section>
-    
-    
-    
-    <div class="gallery" id="gallery">
-        <div class="container"> 
-            <div class="row">   
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                  <hr>
-                  <h2 class="gallery-title text-center"><strong>Gallery</strong></h2>
-                </div>
+
+    <div class="contact-section" id="contact">
+      <div class="container  wow fadeInUp">
+        <form>
+          <div class="col-sm-12 col-md-6 form-line">
+            <div class="form-group">
+              <label for="exampleInputUsername">Your name</label>
+              <input type="text" class="form-control" id="" placeholder=" Enter Name">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputEmail">Email Address</label>
+              <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder=" Enter Subject">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="form-group">
+              <label for="description"> Message</label>
+              <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+            </div>
+            <div>
+
+              <button type="button" class="btn btn-default submit"><i class="fas fa-paper-plane"></i> Send Message</button>
             </div>
 
-                <ul class="photostack">  
-                  <li><img src="../images/Gallery/1.jpg" class="gallery-img"></li>
-                   <li><img src="../images/Gallery/2.jpg" class="gallery-img"></li>
-                  <li><img src="../images/Gallery/3.jpg" class="gallery-img"></li>
-                  <li><img src="../images/Gallery/4.jpg" class="gallery-img"></li>
-                  <li><img src="../images/Gallery/5.jpg" class="gallery-img"></li>
-                  <li><img src="../images/Gallery/6.jpg" class="gallery-img"></li>
-                  <li><img src="../images/Gallery/7.jpg" class="gallery-img"></li>
-                  <li><img src="../images/Gallery/8.jpg" class="gallery-img"></li>
-                </ul>
-              
-        </div>
+          </div>
+        </form>
+
+      </div>
     </div>
-    
 
+  </div>
 
-
- <div id="contact">
-       
-	<div class="container wow fadeInUp">
-		<div id="contact-title" class="row">
-			<h1>Contact us</h1>
-			<h3 class="lead">Just Ask. Get Answers.</h3>
-		</div>  
-	</div>
-
-<div class="contact-section" id="contact">
-	<div class="container  wow fadeInUp">
-		<form>
-			<div class="col-sm-12 col-md-6 form-line">
-				  <div class="form-group">
-					  <label for="exampleInputUsername">Your name</label>
-					<input type="text" class="form-control" id="" placeholder=" Enter Name">
-				  </div>
-				  <div class="form-group">
-					<label for="exampleInputEmail">Email Address</label>
-					<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
-				  </div>	
-				  <div class="form-group">
-					<label for="subject">Subject</label>
-					<input type="text" class="form-control" id="subject" placeholder=" Enter Subject">
-				  </div>
-			  </div>
-			  <div class="col-sm-12 col-md-6">
-				  <div class="form-group">
-					  <label for ="description"> Message</label>
-					   <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
-				  </div>
-				  <div>
-
-					  <button type="button" class="btn btn-default submit"><i class="fas fa-paper-plane"></i>   Send Message</button>
-				  </div>
-				  
-			</div>
-		</form>
-		
-	</div>
-</div>
-
-</div>
-    
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script>
   <script src="../lib/jquery.min.js"></script>
-    <script src="../lib/bootstrap.bundle.min.js"></script>
+  <script src="../lib/bootstrap.bundle.min.js"></script>
 
 
-  
-   <script src="../lib/jquery.js"></script>
+
+  <script src="../lib/jquery.js"></script>
   <script src="../lib/jquery.Photostack.js"></script>
   <!-- Always get the latest version -->
   <!-- Not recommended for production sites! -->
   <!-- Replace cdn with local copy -->
-	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-	<script>
-		var scroll = new SmoothScroll('a[href*="#"]');
-	</script>
-<script  src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+  <script src="main.js"></script>
 
-	
+
 </body>
+
 </html>

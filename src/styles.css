@@ -222,7 +222,7 @@ hr {
 .gallery {
 
   width: 100%;
-  background: url(../images/BHW.png);
+  background: url(../images/BHW2.png);
   height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -346,6 +346,7 @@ img {
 
 .event-head>p {
   font-size: 2em;
+  margin-left: 20px;
 }
 
 .event-container {
@@ -405,6 +406,8 @@ img {
 .event-rev>.event-head>p {
   text-align: right;
   color: white;
+  margin-left: initial;
+  margin-right: 20px;
 }
 
 .event-rev .event-container {
@@ -430,8 +433,61 @@ img {
 }
 
 
+/* our team */
+#team {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  min-height: 100%;
+  background: url('../images/BHW.png') no-repeat center center fixed;
+}
 
+.team-head {
+  flex: 0 1 auto;
+}
 
+.team-head > p {
+  font-size: 2em;
+  padding: 10px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -20px;
+  color: red;
+}
+
+.members {
+  flex: 1 1 auto;
+  display: flex;
+  overflow-x: auto;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.member {
+  padding: 20px;
+  margin: 20px;
+  min-width: 30%;
+  width: 30%;
+  max-width: 30%;
+}
+
+.desc {
+  padding: 50px;
+  display: none;
+}
+
+.name {
+  font-size: 1.4em;
+}
+
+.position {
+  font-size: 1.2em;
+}
+
+.member:hover {
+  box-shadow: 0px 0px 5px;
+}
 
 @media all and (orientation: portrait) {
   .event-container {
@@ -450,15 +506,40 @@ img {
     flex-direction: column;
   }
 
-  .py-5 {
-    
-  }
-
   .group {
     flex-direction: column;
   }
 
   .img-cont {
     padding: 40px;
+  }
+
+  .team-head > p {
+    margin-top: initial;
+  }
+
+  .members {
+    flex-direction: column;
+  }
+
+  .member {
+    width: 75%;
+    min-width: 75%;
+    max-width: 75%;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 4px;
+  }
+
+  .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-top: 40px;
+  }
+
+  .desc p {
+    text-align: center;
   }
 }
