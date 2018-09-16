@@ -32,25 +32,25 @@
             </li>
             <li class="nav-item">
               <div class="dropdown">
-              <a class="nav-link">Dropdown</a>
+              <a class="nav-link">Events</a>
               <div class="dropdown-content">
-              <a href="#">Link 1</a>
+              <a href="#event1">Hello World</a>
               <hr>
-              <a href="#">Link 2</a>
+              <a href="#event2">HackOverflow</a>
               <hr>
-              <a href="#">Link 3</a>
+              <a href="#event3">Hello World 2.0</a>
   </div>
 </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Our team</a>
             </li>
             
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -267,7 +267,7 @@
     
     
     
-    <div class="gallery">
+    <div class="gallery" id="gallery">
         <div class="container"> 
             <div class="row">   
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -302,7 +302,7 @@
 		</div>  
 	</div>
 
-<div class="contact-section">
+<div class="contact-section" id="contact">
 	<div class="container  wow fadeInUp">
 		<form>
 			<div class="col-sm-12 col-md-6 form-line">
@@ -346,6 +346,13 @@
   
    <script src="../lib/jquery.js"></script>
   <script src="../lib/jquery.Photostack.js"></script>
+  <!-- Always get the latest version -->
+  <!-- Not recommended for production sites! -->
+  <!-- Replace cdn with local copy -->
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+	<script>
+		var scroll = new SmoothScroll('a[href*="#"]');
+	</script>
 <script  src="main.js"></script>
 
 	
