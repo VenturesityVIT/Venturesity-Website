@@ -1,0 +1,81 @@
+
+/*-----------------------------------------*/
+/* Start Team Section
+/*-----------------------------------------*/
+
+
+.team-member-section {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+
+
+#team-section  .our-team {
+    padding-top: 20px;
+}
+
+#team-section .team-member img{
+    width: 99%;
+    height: auto;
+    text-align: center;
+}
+
+.team-member .team-details {
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 100%;
+    color: #fff;
+    padding: 0 2px;
+    opacity: 0;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.team-member:hover .team-details {
+    opacity: 1;
+    -webkit-animation: bounceIn;
+    animation: bounceIn;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+}
+
+.team-member .team-details h4 {
+    padding-top: 30%;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.team-member .team-details li {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.team-member .team-details li a {
+    padding: 8px 12px;
+    background: #fff;
+    border: 1px solid #fff;
+    color: #666;
+    font-size: 16px;
+}
+
+.team-member .team-details li:hover a {
+    background: transparent;
+    border: 1px solid #ddd;
+    color: #fff;
+}
+
+.owl-controls {
+    margin-top: 35px !important;
+}
+
+
+
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+

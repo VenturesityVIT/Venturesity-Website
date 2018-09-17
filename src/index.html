@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Venturesity VIT</title>
-
+  
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="../lib/bootstrap.min.css" />
   <link rel="stylesheet" href="../lib/animate.min.css" />
@@ -381,7 +382,31 @@
             </div>
             <div>
 
-              <button type="button" class="btn btn-default submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+              
+
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        
+        <div class="modal-body">
+
+          <p><strong>Your response was recorded.</strong></br></br>
+          We will reach out to you soon...</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
             </div>
 
           </div>
@@ -392,7 +417,8 @@
 
   </div>
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js'></script>
   <script src="../lib/jquery.min.js"></script>
   <script src="../lib/bootstrap.bundle.min.js"></script>
